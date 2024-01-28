@@ -1,0 +1,229 @@
+/* App.css */
+
+.App {
+  text-align: center;
+}
+
+header {
+  background-color: #068820;
+  padding: 1px;
+  color: rgb(14, 28, 14);
+  border: 1px solid black;
+}
+
+main {
+  background-color: #358344;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+
+.product-category {
+  width: 100%;
+}
+
+.product-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.product-card {
+  /* TAKILAR */
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  background-color: #5d9c6b;
+}
+
+.cart {
+  width: 20%;
+  padding: 20px;
+  border: 2px solid black;
+}
+
+.cart h2 {
+  color: #282c34;
+}
+
+.cart-link {
+  cursor: pointer;
+  color: rgb(3, 96, 15);
+  margin-left: 20px;
+}
+
+.cart-modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  background-color:  #358344;
+  padding: 20px;
+  border: 2px solid black;
+  z-index: 1;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px;
+}
+
+.navigation {
+  display: flex;
+}
+
+.nav-link {
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.cart-link {
+  cursor: pointer;
+}
+
+.full-width {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.small-header {
+  height: 30px; /* Header yüksekliğini istediğiniz değere ayarlayabilirsiniz */
+}
+
+/* Diğer stiller buraya eklenebilir */
+
+.product-image {
+  width: 100%;
+  max-width: 100%; /* Resmi kartın genişliğine sığacak şekilde sınırla */
+  max-height: 150px; /* Resmin maksimum yüksekliğini belirle */
+  object-fit: cover;
+  border: 1px solid black;
+}
+
+/* Slider stilleri */
+.slideshow-container {
+  position: relative;
+  width: 100%;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.mySlides {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+.mySlides img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.mySlides img {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.mySlides img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top; /* Resmi üstten başlatmak için */
+}
+.full-width {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.slideshow-container {
+  position: relative;
+  width: 100%;
+  height: 1000vh;
+  overflow: hidden;
+}
+.product-image {
+  width: 100%;
+  max-width: 100%;
+  max-height: 150px;
+  object-fit: cover;
+  border: 1px solid black;
+  object-position: center; /* Resmin ortasını odakla */
+}
+.iletisim-bilgileri {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color:  #358344; /* Arka plan rengini istediğiniz renge ayarlayabilirsiniz */
+  z-index: 2; /* Diğer öğelerin üstünde görüntülenmesi için z-index değerini artırın */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.iletisim-bilgileri h2 {
+  color: #000; /* İletişim bilgileri başlığının rengini ayarlayabilirsiniz */
+}
+
+.iletisim-bilgileri p {
+  color: #000; /* İletişim bilgileri metin rengini ayarlayabilirsiniz */
+}
+
+.social-links a {
+  color: #000; /* Sosyal medya linklerinin rengini ayarlayabilirsiniz */
+  margin-right: 10px;
+}
+
+/* Diğer stiller buraya eklenebilir */
+/* App.css */
+
+/* App.css */
+
+/* ... (diğer stiller) */
+
+/* App.css */
+
+/* ... (diğer stiller) */
+
+/* ... (diğer stiller) */
+
+/* ... (diğer stiller) */
+
+.mySlides {
+  position: relative;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #0a0000b5; /* Metin rengini ayarlayabilirsiniz */
+  width: 80%; /* Metnin genişliğini ayarlayabilirsiniz */
+  max-width: 600px; /* Maksimum genişliği ayarlayabilirsiniz */
+  padding: 20px; /* Kenar boşluğunu ayarlayabilirsiniz */
+  background: rgba(104, 93, 93, 0.5); /* Arkaplan rengini ve opaklığını ayarlayabilirsiniz */
+}
+
+.overlay-text h2 {
+  font-size: 2em; /* Boyutu ayarlayabilirsiniz */
+  margin-bottom: 10px;
+}
+
+.overlay-text p {
+  font-size: 1.2em; /* Boyutu ayarlayabilirsiniz */
+}
+
+/* ... (diğer stiller) */
+
